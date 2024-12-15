@@ -4,7 +4,7 @@ let newGameBtn=document.querySelector("#new_btn");
 let msgContainer=document.querySelector(".container_game");
 let msg=document.querySelector("#msg");
 let turnO; //playerX, playerO
-let playerin = prompt("Player one choose your symbol(X/O)"); //for taking entry from user
+let playerin = prompt("Player one choose your symbol(X/O)",X); //for taking entry from user
 if (playerin === "X" || playerin === "x") {
     turnO = false;
 }
